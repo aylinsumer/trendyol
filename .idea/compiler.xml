@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="testaylin" />
         <module name="trendyol" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="testaylin" target="1.8" />
+      <module name="trendyol" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
