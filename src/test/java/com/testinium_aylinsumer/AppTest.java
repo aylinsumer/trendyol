@@ -52,8 +52,8 @@ public class AppTest {
     @Test
     public void a_loginTest() throws InterruptedException {
         webDriver.findElement(By.cssSelector("div.account-nav-item.user-login-container")).click();
-        webDriver.findElement(By.id("login-email")).sendKeys("aylin.sumer@hotmail.com");
-        webDriver.findElement(By.id("login-password-input")).sendKeys("aylinmorea1"+ Keys.ENTER);
+        webDriver.findElement(By.id("login-email")).sendKeys("Useremail");
+        webDriver.findElement(By.id("login-password-input")).sendKeys("Password"+ Keys.ENTER);
         Thread.sleep(5000);
     }
     @Test
